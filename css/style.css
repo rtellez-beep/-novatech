@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    background-color: rgba(116, 128, 196, 0.541); /* Color de fondo del header */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    /*justify-content: flex-start; /* Alinea elementos a la izquierda */
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center; /* Centra verticalmente */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre logo y texto */
+}
+
+.logo {
+    max-height: 150px; /* Ajusta la altura del logo */
+    width: auto; /* Mantiene la proporción */
+}
+
+.site-title {
+    margin: 0;
+    font-size: 24px;
+}
