@@ -6,7 +6,7 @@ body {
 
 .main-header {
     background-color: rgba(116, 128, 196, 0.541); /* Color de fondo del header */
-    color: white;
+    color:rgba(116, 128, 196, 0.541);
     padding: 10px 20px;
     display: flex;
     /*justify-content: flex-start; /* Alinea elementos a la izquierda */
